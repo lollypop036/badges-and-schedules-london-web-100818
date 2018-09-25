@@ -21,5 +21,4 @@ puts n}
  
 
 end
-
-assign_rooms(["stac", "dan", "rub"])
+printer(["stac", "dan", "rub"])
