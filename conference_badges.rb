@@ -14,12 +14,12 @@ end
 end
 
 def printer(attendees)
-  
+   assign_rooms(attendees).each {|n| 
+puts n}
   batch_badge_creator(attendees).each {|x|
  puts x}
  
- assign_rooms(attendees).each {|n| 
-puts n}
+
 end
 
 assign_rooms(["stac", "dan", "rub"])
