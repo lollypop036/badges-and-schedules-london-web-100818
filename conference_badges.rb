@@ -22,4 +22,4 @@ puts n}
  
 
 end
-printer(["stac", "dan", "rub"])
+#printer(["stac", "dan", "rub"])
