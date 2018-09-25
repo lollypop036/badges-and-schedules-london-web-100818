@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
- array.map! {|name| badge_maker(name)}
+ array.map {|name| badge_maker(name)}
 end
 
 def assign_rooms(speakers)
@@ -17,7 +17,7 @@ def printer(attendees)
     batch_badge_creator(attendees).each {|x|
  puts x}
  
-   assign_rooms(attendees).map.each {|n| 
+   assign_rooms(attendees).each {|n| 
 puts n}
 
 
